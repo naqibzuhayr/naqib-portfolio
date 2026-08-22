@@ -24,7 +24,7 @@ export function Navbar() {
             const active = link.href === "/projects" && pathname.startsWith(link.href);
             return <Link key={link.href} href={link.href} className={`relative py-2 transition-colors ${active ? "text-zinc-950 dark:text-white" : "text-zinc-500 hover:text-zinc-950 dark:hover:text-white"}`}>{link.label}{active ? <span className="absolute inset-x-0 -bottom-0.5 h-px bg-current" /> : null}</Link>;
           })}
-          <a href="/Naqib-Zuhayr-Resume.pdf" download className="relative py-2 text-zinc-500 transition-colors hover:text-zinc-950 dark:hover:text-white">Resume <span aria-hidden="true">↓</span></a>
+          <a href="/NaqibZuhayrResume-SWE.pdf" download className="relative py-2 text-zinc-500 transition-colors hover:text-zinc-950 dark:hover:text-white">Resume <span aria-hidden="true">↓</span></a>
           <Link href="/#contact" className="rounded-full bg-zinc-950 px-5 py-2.5 font-medium text-white transition-transform duration-300 hover:-translate-y-0.5 dark:bg-zinc-50 dark:text-zinc-950">Let&apos;s talk <span aria-hidden="true">↗</span></Link>
         </nav>
       </Container>
