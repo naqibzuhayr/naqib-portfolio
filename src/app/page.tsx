@@ -28,7 +28,7 @@ export default function Home() {
               <div className="relative aspect-square w-full max-w-72 rounded-full border border-white/15 p-1.5 shadow-[0_24px_90px_rgba(0,0,0,0.48)] sm:max-w-88 lg:max-w-[27rem]">
                 <div className="relative size-full overflow-hidden rounded-full bg-zinc-900">
                   <Image
-                    src="/profilepic.jpg"
+                    src="/profilepic.JPG"
                     alt="Portrait of Naqib Zuhayr"
                     fill
                     priority
