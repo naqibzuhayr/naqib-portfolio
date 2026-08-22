@@ -32,7 +32,7 @@ export function Navbar() {
         <nav id="mobile-navigation" className="overflow-hidden" aria-label="Mobile navigation">
           <div className="border-t border-zinc-950/10 px-5 py-5 dark:border-white/10">
             {links.map((link, index) => <Link key={link.href} href={link.href} onClick={() => setOpen(false)} className="flex items-center justify-between border-b border-zinc-950/10 py-4 text-xl tracking-tight dark:border-white/10"><span>{link.label}</span><span className="font-mono text-xs text-zinc-500">0{index + 1}</span></Link>)}
-            <a href="/Naqib-Zuhayr-Resume.pdf" download onClick={() => setOpen(false)} className="flex items-center justify-between border-b border-zinc-950/10 py-4 text-xl tracking-tight dark:border-white/10"><span>Resume</span><span aria-hidden="true">↓</span></a>
+            <a href="/NaqibZuhayrResume-SWE.pdf" download onClick={() => setOpen(false)} className="flex items-center justify-between border-b border-zinc-950/10 py-4 text-xl tracking-tight dark:border-white/10"><span>Resume</span><span aria-hidden="true">↓</span></a>
             <Link href="/#contact" onClick={() => setOpen(false)} className="mt-5 block rounded-full bg-zinc-950 px-5 py-3 text-center text-sm font-medium text-white dark:bg-zinc-50 dark:text-zinc-950">Let&apos;s talk</Link>
           </div>
         </nav>
